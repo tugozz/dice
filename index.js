@@ -69,12 +69,12 @@ const getIndex = () => {
 };
 
 const dice = [
-  "./photos/dice 1.png",
-  "./photos/dice 2.png",
-  "./photos/dice 3.png",
-  "./photos/dice 4.png",
-  "./photos/dice 5.png",
-  "./photos/dice 6.png",
+  "./photos/dice-six-faces-one.png",
+  "./photos/dice-six-faces-two.png",
+  "./photos/dice-six-faces-three.png",
+  "./photos/dice-six-faces-four.png",
+  "./photos/dice-six-faces-five.png",
+  "./photos/dice-six-faces-six.png",
 ];
 
 let player1Point;
@@ -131,8 +131,8 @@ resetButton.addEventListener("click", () => {
   gameActive = true;
 
   // Reset display
-  num1.src = "./photos/dice 1.png";
-  num2.src = "./photos/dice 2.png";
+  num1.src = "./photos/dice-six-faces-one.png";
+  num2.src = "./photos/dice-six-faces-one.png";
   result.innerText = "";
   result.classList.remove("result-block");
 });
