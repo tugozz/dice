@@ -69,7 +69,7 @@ const getIndex = () => {
 };
 
 const dice = [
-  "./photos/dice-six-faces-one.png",
+  "./photos/dice-six-faces-onee.png",
   "./photos/dice-six-faces-two.png",
   "./photos/dice-six-faces-three.png",
   "./photos/dice-six-faces-four.png",
