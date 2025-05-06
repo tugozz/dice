@@ -91,10 +91,10 @@ playerOne.addEventListener("click", () => {
 
   if (player2Point !== undefined) {
     if (player2Point > index) {
-      result.innerText = "Player 2 won";
+      result.innerText = "Player 2 Won";
       gameActive = false;
     } else if (player2Point < index) {
-      result.innerText = "Player 1 won";
+      result.innerText = "Player 1 Won";
       gameActive = false;
     } else {
       result.innerText = "Draw";
